@@ -1,4 +1,4 @@
-const CACHE_NAME = 'memon-estate-app-v5';
+const CACHE_NAME = 'memon-estate-app-v4';
 const APP_SHELL = [
   './',
   'offline',

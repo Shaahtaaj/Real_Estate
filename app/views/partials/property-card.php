@@ -24,13 +24,13 @@ $cardProperty = array_merge([
     'baths' => 0,
     'area' => '',
     'area_size' => '',
-    'image' => 'assets/images/property-1.svg',
+    'image' => 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85',
     'status' => 'active',
 ], $property ?? []);
 ?>
 <article class="property-card soft-card overflow-hidden rounded-3xl">
     <div class="relative aspect-[4/3] overflow-hidden">
-        <?php $cardImage = media_url((string) $cardProperty['image']); ?>
+        <?php $cardImage = str_starts_with((string) $cardProperty['image'], 'uploads/') ? upload_asset((string) $cardProperty['image']) : (string) $cardProperty['image']; ?>
         <img src="<?= e($cardImage) ?>" alt="<?= e((string) $cardProperty['title']) ?>" class="h-full w-full object-cover" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/10 to-transparent"></div>
         <div class="absolute left-4 top-4 rounded-full bg-blue-500 px-3 py-1 text-xs font-bold text-white shadow-lg shadow-blue-950/40"><?= e((string) $cardProperty['type']) ?></div>

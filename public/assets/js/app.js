@@ -1,4 +1,4 @@
-function initMemonEstateApp() {
+document.addEventListener('DOMContentLoaded', () => {
     if (window.lucide) {
         window.lucide.createIcons();
     }
@@ -142,10 +142,4 @@ function initMemonEstateApp() {
             .then((registration) => registration.update())
             .catch(() => {});
     }
-}
-
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initMemonEstateApp);
-} else {
-    initMemonEstateApp();
-}
+});

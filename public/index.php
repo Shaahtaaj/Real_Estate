@@ -20,13 +20,6 @@ ini_set('session.cookie_samesite', 'Lax');
 
 session_start();
 
-$requestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
-if (preg_match('#/(admin|dashboard|login|logout|register|forgot-password)(/|$)#', $requestPath)) {
-    header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
-    header('Pragma: no-cache');
-    header('Expires: 0');
-}
-
 require ROOT_PATH . '/app/helpers/functions.php';
 require ROOT_PATH . '/app/helpers/ImageUpload.php';
 require ROOT_PATH . '/core/Router.php';
