@@ -1,0 +1,35 @@
+{
+  "id": ".",
+  "name": "Memon Estate",
+  "short_name": "Estate",
+  "description": "Premium real estate listing platform for Karachi property search.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "categories": ["business", "productivity", "lifestyle"],
+  "icons": [
+    {
+      "src": "public/assets/images/logo-2.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search Properties",
+      "short_name": "Search",
+      "url": "search",
+      "icons": [{ "src": "public/assets/images/logo-2.png", "sizes": "512x512" }]
+    },
+    {
+      "name": "Add Listing",
+      "short_name": "Add",
+      "url": "dashboard/add-listing",
+      "icons": [{ "src": "public/assets/images/logo-2.png", "sizes": "512x512" }]
+    }
+  ]
+}

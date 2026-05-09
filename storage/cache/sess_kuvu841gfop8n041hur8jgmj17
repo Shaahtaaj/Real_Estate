@@ -1,0 +1,1 @@
+_csrf|s:64:"57a33ee029b315d64b8dd037cb19f0d7d34c9aff919ecad2b95de195839516f5";user|a:4:{s:2:"id";i:2;s:4:"name";s:10:"Test Admin";s:5:"email";s:22:"admin@memonestate.test";s:4:"role";s:5:"admin";}_flash|a:1:{s:7:"success";s:23:"Inquiry status updated.";}
