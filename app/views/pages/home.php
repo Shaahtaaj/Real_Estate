@@ -4,7 +4,7 @@ $properties = $properties ?? [];
 ?>
 <section class="relative min-h-screen overflow-hidden px-4 pt-28 sm:px-6 lg:px-8">
     <div class="absolute inset-0 -z-10">
-        <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=2200&q=90" alt="Luxury property interior" class="h-full w-full object-cover opacity-35">
+        <img src="<?= asset('images/property-hero.svg') ?>" alt="Luxury property interior" class="h-full w-full object-cover opacity-35">
         <div class="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/82 to-slate-950"></div>
     </div>
     <div class="mx-auto grid max-w-7xl items-center gap-10 pb-20 lg:grid-cols-[1.05fr_.95fr]">

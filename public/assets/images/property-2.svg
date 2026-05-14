@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Modern villa listing">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#064e3b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <circle cx="135" cy="120" r="110" fill="#10b981" opacity=".2"/>
+  <path d="M0 505h900v170H0z" fill="#031b1a"/>
+  <path d="M120 360h660v165H120z" fill="url(#wall)"/>
+  <path d="M175 255h270l80 105H95z" fill="#111827"/>
+  <path d="M455 255h260l95 105H525z" fill="#1e293b"/>
+  <path d="M220 392h135v90H220zM545 392h135v90H545z" fill="#0f172a"/>
+  <path d="M395 392h90v133h-90z" fill="#111827"/>
+  <path d="M75 548c110-55 250-55 360 0s250 55 390 0" fill="none" stroke="#34d399" stroke-width="18" opacity=".35"/>
+  <text x="55" y="92" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">DHA Modern Villa</text>
+  <text x="55" y="138" fill="#a7f3d0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Family living</text>
+</svg>

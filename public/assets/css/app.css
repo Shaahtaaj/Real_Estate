@@ -41,6 +41,29 @@ button {
     cursor: pointer;
 }
 
+summary {
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+.menu-glyph {
+    display: inline-flex;
+    min-width: 2.25rem;
+    min-height: 1.25rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+[data-lucide="menu"]:empty {
+    display: none;
+}
+
 @media (max-width: 767px) {
     body {
         padding-bottom: calc(4.5rem + env(safe-area-inset-bottom));

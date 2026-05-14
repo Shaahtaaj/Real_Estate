@@ -1,4 +1,4 @@
-const CACHE_NAME = 'memon-estate-app-v4';
+const CACHE_NAME = 'memon-estate-app-v6';
 const APP_SHELL = [
   './',
   'offline',
@@ -6,6 +6,10 @@ const APP_SHELL = [
   'public/assets/css/app.css',
   'public/assets/js/app.js',
   'public/assets/images/logo-2.png',
+  'public/assets/images/property-hero.svg',
+  'public/assets/images/property-1.svg',
+  'public/assets/images/property-2.svg',
+  'public/assets/images/property-3.svg',
   'manifest.json'
 ];
 

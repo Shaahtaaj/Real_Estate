@@ -25,7 +25,7 @@ $viewProperty = array_merge([
     'baths' => 0,
     'area' => '',
     'area_size' => '',
-    'image' => 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85',
+    'image' => 'assets/images/property-1.svg',
     'images' => [],
 ], $property ?? []);
 ?>
@@ -34,7 +34,7 @@ $viewProperty = array_merge([
         <div class="grid gap-8 lg:grid-cols-[1.1fr_.9fr]">
             <div>
                 <div class="overflow-hidden rounded-[2rem] border border-white/10">
-                    <?php $heroImage = str_starts_with((string) $viewProperty['image'], 'uploads/') ? upload_asset((string) $viewProperty['image']) : (string) $viewProperty['image']; ?>
+                    <?php $heroImage = media_url((string) $viewProperty['image']); ?>
                     <img src="<?= e($heroImage) ?>" alt="<?= e((string) $viewProperty['title']) ?>" class="h-[34rem] w-full object-cover">
                 </div>
                 <div class="mt-6 grid gap-4 sm:grid-cols-3">

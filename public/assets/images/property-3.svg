@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Apartment listing">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0" stop-color="#c4b5fd" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity=".2"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <circle cx="720" cy="125" r="140" fill="#6366f1" opacity=".22"/>
+  <path d="M120 570h660" stroke="#f8fafc" stroke-width="13" opacity=".16"/>
+  <path d="M230 150h330v420H230z" fill="#111827" stroke="#475569" stroke-width="7"/>
+  <path d="M590 235h145v335H590z" fill="#1e293b" stroke="#475569" stroke-width="7"/>
+  <g fill="url(#glass)" stroke="#64748b" stroke-width="4">
+    <path d="M270 200h80v75h-80zM390 200h80v75h-80zM270 310h80v75h-80zM390 310h80v75h-80zM270 420h80v75h-80zM390 420h80v75h-80z"/>
+    <path d="M625 280h70v70h-70zM625 385h70v70h-70z"/>
+  </g>
+  <text x="55" y="92" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">Bahadurabad Apartment</text>
+  <text x="55" y="138" fill="#c4b5fd" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Prime city access</text>
+</svg>

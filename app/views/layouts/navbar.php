@@ -12,6 +12,7 @@
         <details class="relative md:hidden">
             <summary class="list-none rounded-xl border border-white/10 p-2 text-slate-200" aria-label="Open navigation">
                 <i data-lucide="menu" class="h-5 w-5"></i>
+                <span class="menu-glyph">Menu</span>
             </summary>
             <div class="absolute right-0 top-14 w-64 rounded-3xl border border-white/10 bg-slate-950/95 p-4 shadow-2xl backdrop-blur-xl">
                 <div class="grid gap-3 text-sm font-medium text-slate-300">

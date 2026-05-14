@@ -31,6 +31,19 @@ function upload_asset(string $path): string
     return $base . '/' . ltrim($path, '/');
 }
 
+function media_url(string $path): string
+{
+    if (str_starts_with($path, 'http://') || str_starts_with($path, 'https://')) {
+        return $path;
+    }
+
+    if (str_starts_with($path, 'uploads/') || str_starts_with($path, 'assets/')) {
+        return upload_asset($path);
+    }
+
+    return $path;
+}
+
 function url(string $path = ''): string
 {
     $base = defined('BASE_PATH') ? BASE_PATH : '';

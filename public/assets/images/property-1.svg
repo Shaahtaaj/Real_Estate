@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Premium penthouse listing">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="window" x1="0" x2="1">
+      <stop offset="0" stop-color="#93c5fd" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity=".22"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <circle cx="725" cy="105" r="130" fill="#3b82f6" opacity=".22"/>
+  <path d="M95 500h710v95H95z" fill="#020617" opacity=".7"/>
+  <path d="M170 185h560v330H170z" fill="#0f172a" stroke="#475569" stroke-width="8"/>
+  <path d="M230 240h135v205H230zM395 240h135v205H395zM560 240h135v205H560z" fill="url(#window)" stroke="#64748b" stroke-width="5"/>
+  <path d="M130 525h640" stroke="#e2e8f0" stroke-width="10" opacity=".2"/>
+  <path d="M225 545h170v62H225zM510 545h170v62H510z" fill="#1e293b" stroke="#334155" stroke-width="4"/>
+  <text x="55" y="92" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">Clifton Penthouse</text>
+  <text x="55" y="138" fill="#93c5fd" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Sea view luxury</text>
+</svg>
